@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First HTML5 Page</title>
+  <meta name="description" content="A simple HTML5 page with accessibility and SEO basics.">
+</head>
+<body>
+  <header>
+    <h1>My First Web Page</h1>
+    <p>Learning HTML5, Accessibility, and SEO basics.</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#content">Content</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>This page uses semantic HTML5 tags to help both people and search engines understand the structure.</p>
+    </section>
+
+    <section id="content">
+      <h2>Content</h2>
+      <article>
+        <h3>Why Use Semantic HTML</h3>
+        <p>It makes pages easier to read, improves accessibility, and helps with SEO.</p>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form aria-label="Contact form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
